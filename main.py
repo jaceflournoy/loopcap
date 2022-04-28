@@ -5,8 +5,7 @@ import time
 import random
 import os
 import img2pdf
-
-
+import sys
 
 mouse = Controller()
 
@@ -46,22 +45,22 @@ def on_click3(x, y, button, pressed):
 
     
 def get_first_corner():
-        with Listener(on_click=on_click1) as listener:
-            print("Enter first corner: ")
-            listener.join()
-            print(x1, y1)
-            return x1, y1
+    with Listener(on_click=on_click1) as listener:
+        print("Click first corner (top-left): ")
+        listener.join()
+        print(x1, y1)
+        return x1, y1
 
 def get_second_corner():
         with Listener(on_click=on_click2) as listener:
-            print("Enter second corner: ")
+            print("Click second corner (bottom-right): ")
             listener.join()
             print(x2, y2)
             return x2, y2
         
 def get_button():
         with Listener(on_click=on_click3) as listener:
-            print("Enter button coordinates: ")
+            print("Click button location: ")
             listener.join()
             print(x3, y3)
             return x3, y3
