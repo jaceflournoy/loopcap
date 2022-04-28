@@ -10,7 +10,7 @@ import img2pdf
 
 mouse = Controller()
 
-logging.basicConfig(filename="mouse_log.txt", level=logging.DEBUG, format='%(asctime)s: %(message)s')
+logging.basicConfig(filename="log.txt", level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
 x1 = 0
 x2 = 0
