@@ -31,4 +31,3 @@ To use the script, follow these steps:
 - Make sure that the button that advances to the next slide is visible and not covered by any other windows when you start the capture session.
 - If you are capturing slides from a presentation, it might be helpful to enable presenter view so that the button that advances to the next slide is always visible.
 - You can adjust the delay between captures by modifying the `time.sleep` call in the script.
-- If you want to capture slides from a video, you can pause the video at the beginning of each slide and then click on the button to advance to the next slide.
