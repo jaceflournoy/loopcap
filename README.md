@@ -23,7 +23,7 @@ To use the script, follow these steps:
 4. Click on the location of the button that advances to the next slide.
 5. Enter the total number of slides you want to capture.
 6. Enter the name of the directory where you want to save the screenshots.
-7. Wait for the countdown to complete, and then click on the button that advances to the next slide to begin the capture session.
+7. During the countdown window, make sure to adjust anything necessary (window position, starting slide, etc.) before capture starts.
 8. When the capture session is complete, the script will prompt you to decide whether to generate a PDF document from the screenshots. If you choose to do so, enter a file name for the PDF and the script will create the PDF.
 
 ## Tips
